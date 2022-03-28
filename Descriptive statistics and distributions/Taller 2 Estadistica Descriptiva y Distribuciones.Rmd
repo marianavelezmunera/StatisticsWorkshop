@@ -1,0 +1,251 @@
+---
+title: 'Taller Estadística en R: Sesión 2'
+date: "Abril de 2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Estadística Descriptiva y Distribuciones
+
+## Selección y modificación de datos 
+
+Lo primero que hay que hacer es cargar y seleccionar los datos que nos interesan.
+
+```{r}
+lombrices<-read.delim("Bd_Lombrices_Tulenapa_todo.txt")
+```
+
+Cuando tenemos datos lo primero que nos interesa es ver qué tipo de datos tenemos, qué es lo más común, qué tan dispersos son, etc, etc y para esto es muy útil R
+
+### Variables
+
+Nuestros sets de datos tienen registros para múltiples variables y es importante ser consciente de cuales son esas variables y qué naturaleza tienen. Para ver que variables hay en un set de datos usamos el comando **names()** 
+
+```{r}
+names(lombrices)
+```
+
+Las variables pueden ser numéricas o categóricas. Para saber si una variable de un set de datos es númerica podemos utilizar el comando **mode()**
+
+```{r}
+mode(lombrices$estacion) 
+#Con el operador $ seleccionamos una variable dentro del set de datos 
+mode(lombrices$pH)
+```
+
+### Seleccionar los datos 
+
+Muchas veces solo nos interesan ciertas variables de un set de datos o ciertos registros, por lo que podemos recortar nuestros sets para trabajar con sets más pequeños y manejables. Esto lo podemos hacer indexando o con el comando **subset()**
+
+Por ejemplo si queremos solo ciertas columnas o ciertas filas podemos guardar un objeto indexando nuestro set de datos 
+
+```{r}
+lombrices_modificado1<-lombrices[1:5,1:4] 
+#lombrices modificado 1 va a ser solo las filas de la 1 a la 5 y las columnas de la 1 a la 4
+
+lombrices_modificado2<-lombrices[,c(-2,-3)] 
+#lombrices modificado 2 va a ser todas las filas pero sin las columnas de la 2 y 3
+
+lombrices_modificado3<-lombrices[c(1:100),] 
+#lombrices modificado 3 va a ser los datos de lombrices pero solo las 100 primeras filas
+
+```
+
+Si lo que necesitamos es que se nos seleccionen registros que cumplan una característica específica usamos **subset()**
+
+```{r}
+estacion_seca<-subset(lombrices, estacion=="seca")
+head(estacion_seca)
+
+#estacion_seca son únicamente los datos para la temporada seca# 
+ph_basico<-subset(lombrices,pH>6) 
+#ph básico son los registros en donde el ph es mayor a 6
+basico_lluvia<-subset(lombrices,estacion=="Lluvia"& pH>6) 
+#basico_lluvia filtra los datos en donde la estación sea lluvia Y el pH mayor a 6
+```
+
+### Añadir datos
+
+Si por ejemplo quiero añadirle una variable más a mi set de datos, puedo usar el operador $ con la siguiente estructura:
+
+set_de_datos$nombre_de_la_variable<-objeto con la variable
+
+```{r}
+sitio<-rep("Tulenapa",194)
+lombrices$Sitio<-sitio
+head(lombrices)
+```
+
+## Medidas de tendencia central 
+
+Los estadísticos de tendencia central más usados son la media aritmética, la mediana y la moda. 
+
+Las funciones **mean()** y **median()** nos permiten hallar la media y la mediana
+
+```{r}
+mean(lombrices$pH,na.rm = TRUE) 
+#Utilizamos el argumento na.rm para quitar los datos faltantes
+median(lombrices$DA)
+```
+
+## Medidas de dispersión o envergadura
+
+En R también podemos hallar las medida básicas para mirar qué tan dispersos están nuestros datos. Las funciones **sd()**,**var()** y **IQR()** nos permiten hallar la desviación estándar, la varianza y el rango intercuartil respectivamente 
+
+```{r}
+sd(lombrices$DA)
+var(lombrices$BDF,na.rm = TRUE)
+IQR(lombrices$MO)
+```
+
+Si queremos sacar todos estos datos, podemos usar el comando **summary()** que los arroja todos de una vez
+
+```{r}
+summary(lombrices$pH)
+```
+
+## Gráficos 
+
+Representar gráficamente los datos es importante. Para hacer una buena gráfica es necesario:
+
+- Mostrar todos los datos
+- Representar las magnitudes con precisión
+- Minimizar el desorden
+- Que sea fácil de interpretar
+- Que los ejes estén correctamente identificados
+
+### Comandos básicos para gráficos
+
+Los comandos más utilizados son:
+
+- *plot()*
+- *hist()*
+- *boxplot()*
+
+y en todos estos comandos hay argumentos básicos para cambiar parámetros gráficos como:
+
+- *main=:* Para poner el título del gráfico
+
+- *ylab=/xlab=:* para poner los nombres de los ejes
+
+- *col=:* para elegir el color de la gráfica
+
+- *xlim/ylim=:* para elegir la escala de los ejes (donde empieza y donde termina)
+
+#### Histograma
+
+Se usa para graficar variables numéricas (en el eje x) contra su frecuencia (eje y)
+
+```{r,fig.height=3,fig.width=4}
+hist(lombrices$pH, main="pH del suelo", ylab="Frecuencia",xlab = "pH",col="pink")
+```
+
+#### Boxplot 
+
+Se usa para graficar variables categóricas (en el eje x) contra variables numéricas (en el eje y)
+
+```{r,fig.height=3,fig.width=4}
+boxplot(lombrices$pH~lombrices$estacion, 
+        main= "Estación vs pH",xlab="Estacion",ylab="pH",
+        col=c("pink","lightblue"))
+```
+
+#### Gráfico de dispersión
+
+Se usa para graficar variables numéricas, variable independiente en el eje x, y variable dependiente en el eje y 
+
+```{r,fig.height=3,fig.width=4}
+plot(lombrices$MO,lombrices$HS, 
+     main = "MO vs HS",xlab = "MO",
+     ylab = "HS",col="lightgreen")
+```
+
+#### Grafico de barras
+
+Sirve para gráficar variables categóricas vs frecuencias.
+
+```{r,fig.height=3,fig.width=4}
+estacion_tabla<-table(lombrices$estacion)
+barplot(estacion_tabla,main="Frecuencia de la estacion", ylim = c(0,120),
+  names.arg = c("Seca","Lluvia"),
+  col=c("lightblue","pink"),
+  ylab = "Frecuencia",xlab = "Tipo de estación")
+```
+
+## Distribuciones de datos
+
+Los datos se distribuyen en diferentes valores. Hablamos de *distribución de frecuencias* si trabajamos con la muestra y *distribución de probabilidades* si trabajamos la población. Se puede usar las frecuencias absolutas, en donde se utiliza el número de observaciones o se puede usar la frecuencia relativa, que es la proporción de observaciones teniendo en cuenta el total de observaciones.
+
+Hay dos distribuciones muy importantes: la distribución normal y la distribución binomial 
+
+### La distribución normal
+
+La distribución normal (también denominada gaussiana) es una distribución de probabilidad simétrica con una característica forma de campana. La distribución normal es la distribución de probabilidad más importante para el análisis de datos; Los procedimientos estadísticos más utilizados en biología (por ejemplo, regresión lineal, análisis de varianza) asumen que las variables que se analizan (o las desviaciones de un modelo ajustado) siguen una distribución normal.
+
+### La distribución binomial
+
+Es una distribución discreta de probabilidades para el número de éxitos en un número fijo de pruebas independientes en donde la probabilidad de éxito siempre es la misma 
+
+![](normal-binom.png){width=50%}
+
+## Comprobar normalidad y homocedasticidad
+
+Para muchas de las pruebas, se supone que las variables tienen una distribución normal y que las varianzas de los grupos son homogéneas, por lo que es necesario comprobar la normalidad y la homocedasticidad. 
+
+Para eso podemos usar diferentes pruebas. Para normalidad la más común es la prueba de Shapiro-Wilks y para la homocedasticidad la prueba F o la prueba de Levene si tengo más de 2 grupos. 
+
+### Prueba de Shapiro-Wilks
+
+se usa para contrastar la normalidad de un conjunto de datos. Se plantea como hipótesis nula que una muestra proviene de una población normalmente distribuida. 
+
+Para hacerla en R se usa el comando **shapiro.test()**
+
+Si p>0.05 fallo en rechazar la hipótesis nula y concluyo que los datos son normales
+
+Si p<0.05 rechazo la hipótesis nula y concluyo que los datos no son normales
+
+```{r}
+seca<-subset(lombrices,estacion=="seca")
+shapiro.test(seca$pH) 
+#los datos de pH para la estación seca NO son normales
+lluvia<-subset(lombrices,estacion=="Lluvia")
+shapiro.test(lluvia$pH) 
+#los datos de pH para la estación lluvia NO son normales
+```
+
+### Prueba F
+
+Sirve para mirar si hay homogeneidad de varianzas entre 2 grupos. La hipótesis nula es que no hay diferencias significativas entre las varianzas de los dos grupos
+
+En R se puede hacer con el comando **var.test()**
+
+```{r}
+var.test(seca$pH,lluvia$pH) #las varianzas del pH no son parecidas
+```
+
+### Test de Levene
+
+El test de Levene se puede hacer cuando se requiere comparar las varianzas de más de dos grupos. La hipótesis nula es igual a la del test F.
+
+En R se puede hacer instalando el paquete *car* y usando el comando **leveneTest()**
+
+El comando se llena de la siguiente manera: leveneTest(variable numerica, variable categorica, si el centro es la media o la mediana)
+
+```{r,eval=FALSE}
+install.packages("car")
+
+```
+
+```{r}
+library(car)
+data(iris)
+data("iris")
+leveneTest(iris$Petal.Length,iris$Species,center = "mean") 
+# No hay homocedasticidad entre especies 
+```
+
