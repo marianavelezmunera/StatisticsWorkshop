@@ -69,6 +69,11 @@ binom.test(24,33,p=0.5,alternative = "two.sided",conf.level = 0.95)
 frecuencia_obs<-c(100,37,45,18)
 probabilidas_nula<-c(9/16,3/16,3/16,1/16)
 chisq.test(frecuencia_obs,p=probabilidas_nula,correct = FALSE)
+
+frecuencia_obs<-c(100,37,45,18)
+probabilidades_nula<-c(9/16,3/16,3/16,1/16)
+chisq.test(frecuencia_obs,p=probabilidades_nula,correct = FALSE)
+
 ## Poisson
 
 ### Tiempo o el espacio 

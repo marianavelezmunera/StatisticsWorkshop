@@ -1,0 +1,119 @@
+ID_unico	ID _formato	Localidad	Ano	Mes	Dia	Hora	Red	Encargado	Especie	GREMIO	Peso	Estadio	Como estadio	Sexo	Como sexo	Reproductivo	Muda	Culmen Expuesto	Culmen Total	Ancho pico	Alto pico	Comisura	Tarso	Longitud Una Halux	Extension	Rectriz Central	Rectriz externa	Cuerda alar	Polen/Fecas	Observaciones
+1	1	SM	2015	3	2	16:15:00	1	DMA	Haplophaedia aureliae	Nectarivoro		J	I			N	S	18.9	23	2.5	2.3	4.5	4.7	3	8.4			56	NO	No se tomaron medidas de rectriz central ni de rectriz externa porque se encontraba en periodo de muda
+2	2	SM	2015	3	2	16:37:00	1	DAG	Basileuterus coronatus	Insectivoro	18.06	A	I	D		N	N	10.5	14.7	5.3	4.5		24.7	2.5	22	60	58	71	NO	
+3	3	SM	2015	3	2	16:37:00	1	DMA	Premnoplex brunnescens	Insectivoro	17.78	A	I	D		N	N	12.9	17.1	3.9	4	8.9	20.5	7.9	19.5	59	46	63	NO	
+4	4	SM	2015	3	2	17:20:00	1	DMA	Arremon brunneinucha	Frugivoro/Insectivoro+	51.24	A	P	D		N	N	14.7	19.7	6.8	8.1	9.9	30.9	9.2	18.9	87	70	85	NO	
+5	5	SM	2015	3	2	17:20:00	1	DAG	Myadestes ralloides	Frugivoro	29.25	A	I	D		N	N	10	13.5	4.9	3.9		23.4	6.2	22.3	70.6	70.8	80.9	F	
+6	6	SM	2015	3	2	17:20:00	1	DMA	Mionectes striaticollis	Frugivoro/Insectivoro+	12.19	A	I	D		N	N	9.8	13.8	4.2	3.6	7.9	17.3	6.6	14.2	56	52	63	NO	
+7	7	SM	2015	3	2	17:40:00	1	DMA	Phaethornis syrmatophorus	Nectarivoro	6.44	A	I	D		N	N	37.4	43	3.5	3.4	5.1	3.5	2.4	7.5	77	30	63	P	
+8	8	SM	2015	3	2	18:00:00	1	JLPV	Nephelomyias pulcher	Insectivoro	12.04	A	P	D		N	N	9.5	11.1	4.3	3.8	7.7	15.6	5.4	13.6	55	55	63	NO	
+9	9	SM	2015	3	3	07:25:00	1	DTM	Elaenia frantzii	Frugivoro/Insectivoro+	14.72	J	P	D		N	N	7	9	3	4	7	11.5	2.2	14.8	60	67	69	NO	
+10	10	SM	2015	3	3	07:30:00	1	DAG	Phaethornis syrmatophorus	Nectarivoro																			SI	
+11	11	SM	2015	3	3	06:40:00	1	DMA	Haplophaedia aureliae	Nectarivoro	6.25	A	P	M	P	N	N	18.6	21.9	2.6	1.9	3.5	4.6	3.4	9.4	41	45	70	SI	
+12	12	SM	2015	3	3	06:40:00	1	JEL	Elaenia frantzii	Frugivoro/Insectivoro+	14.3	A	P	D		N	N	5.7	6.9	4.6	4.6	7	15.3	5.1	17.3	60	65	71	NO	
+13	13	SM	2015	3	3	06:40:00	1	DMA	Henicorhina leucophrys	Insectivoro	16.28	A	P	D		N	N	12.6	17.3	4.5	3.6	8.8	24.5	8.1	16.1	34	30	56	NO	
+14	14	SM	2015	3	3	07:50:00	1	ECR	Basileuterus coronatus	Insectivoro	16.76	A	I	D		N	N	11	15.9	5.9	4.5	11.5	24.9	6.9	14.3	61	59	70	NO	
+15	15	SM	2015	3	3	07:50:00	1	DMA	Basileuterus coronatus	Insectivoro	15.47	J	I	D		N	N	10.3	15.2	5.3	4.5	11.2	20.9	6	15.1	63	55	66	NO	
+16	16	SM	2015	3	3	08:20:00	1	DMA	Haplophaedia aureliae	Nectarivoro	6.53	A	I	H	P	N	N	18.8	22	2.9	2.1	4.3	4.3	3.2	5.6	37	40	56	SI	
+17	17	SM	2015	3	3	08:20:00	1	ECR	Haplophaedia aureliae	Nectarivoro																				
+18	18	SM	2015	3	3	08:20:00	1	ECR	Haplophaedia aureliae	Nectarivoro	5.83	J	I	H	P	N	N	18.2	23	2.9	2.1	3.9	7.4	3.3	10.8	40	40	65	SI	
+19	19	SM	2015	3	3	08:20:00	1	DMA	Campylopterus falcatus	Nectarivoro	7.88	A	I	M	P	N	N	23.8	28	3.2	2.6	5.6	5	2.6	5.5	47	47	69	SI	
+20	20	SM	2015	3	3	08:20:00	1	DTM	Haplophaedia aureliae	Nectarivoro	6.02	A	I	M	P	N	N	16.1	22.3	2.3	2	3.5	11.4	5.2	14.1	30	40	60	SI	
+21	21	SM	2015	3	3	08:49:00	1	DMA	Heliodoxa rubinoides	Nectarivoro	7.34	A	I	D		N	N	22.8	24.9	3.1	3.9	5.7	4.4	3.8	7.3	42	39	63	NO	
+22	22	SM	2015	3	3	08:20:00	1	DTM	Mionectes striaticollis	Frugivoro/Insectivoro+	12.47	A	I	D		N	N	7.3	10.2		3.4	8	15.5	4.7	18.1	45	45	60	SI	Se borr— dato de ancho del pico. No se encontraron semillas en las fecas
+23	23	SM	2015	3	3	08:20:00	1	DTM	Basileuterus?	Frugivoro/Insectivoro+								11.5	14.1	3.6	5.7	7.9	17	5.6	28.1	60	60	70	SI	No se encontraron semillas en las fecas
+24	24	SM	2015	3	3	08:49:00	1	DTM	Mionectes striaticollis	Frugivoro/Insectivoro+	12.85	A	I	D		N	N	10.1	12.1		3.7	7.6	15.6	5	20.2	40	50	60	NO	No se encontraron semillas en las fecas. Se borr— dato de ancho del pico. 
+25	25	SM	2015	3	3	09:56:00	1	ECR	Haplophaedia aureliae	Nectarivoro		A	I	H	P	N	S	18.1	22.6	3.2	2.1	4.3	7.1	3.1	12.3	38	35	56	SI	
+26	26	SM	2015	3	3	09:40:00	1	DTM	Haplophaedia aureliae	Nectarivoro		A	I	H	P	N	N	18.4	20	2.1	2	4.5	7.1	2.1	10.6	25	30	50	SI	
+27	27	SM	2015	3	3	09:40:00	1	DMA	Mionectes striaticollis	Frugivoro/Insectivoro+	14.61	A	I	D		N	N	9.7	12	4.4	4.4	9.6	16.6	6.8	10.8	52	55	68	NO	
+28	28	SM	2015	3	3	09:40:00	1	DTM	Atlapetes albinucha	Frugivoro/Insectivoro+	35.21	A	I	D		N	N	11.5	15.5	3.6	8.3	10	32.2	8	21.6	80	75	70	SI	No se encontro muestra para la columna Polen/Fecas
+29	29	SM	2015	3	3	10:40:00	1	ECR	Coeligena coeligena	Nectarivoro	6.1	J	I	D		N	S	25.4	29.7	3	2.7	3.8	5.4	3.1	8.2	38	55	75	SI	
+30	30	SM	2015	3	3	10:40:00	1	DTM	Haplophaedia aureliae	Nectarivoro	4.65	A	I	M	P	N	N	17.4	19.9	1.9	1.9	3.5	7	1.9	6.4	40	40	60	SI	
+31	31	SM	2015	3	3	10:40:00	1	DTM	Haplophaedia aureliae	Nectarivoro	4.63	J	I	H	P	N	S	17.5	19.5	2.1	1.9	3.4	5.9	2.4	11.8	30	35	60	SI	
+32	32	SM	2015	3	3	10:40:00	1	DMA	Tangara arthus	Frugivoro/Insectivoro+	18.45	A	P	D		N	N	8.6	10.9	4.6	5	7.9	16.2	5.1	15.9	56	57	77	NO	
+33	33	SM	2015	3	3	10:40:00	1	DTM	Coeligena coeligena	Nectarivoro	6.1	A	I	D		N	S	27.5	30.4	2.5	2.5	2.8	6.4	3.2	13.7	40	45	70	SI	
+34	34	SM	2015	3	3	11:30:00	1	DMA	Xenopipo flavicapilla	Frugivoro	17.33	A	I	M	P	S	N	7.9	11.7	5.2	4.3	9.8	15.5	4.4	14.6	47	47	74	SI	
+35	35	SM	2015	3	3	11:30:00	1	DTM	Myadestes ralloides	Frugivoro	32.7	A	I	H	R	S	N	7.9	11.3	2.6	4.1	9.6	25.3	5	24.7	70	65	85	NO	
+36	36	SM	2015	3	3	17:45:00	1	JLPV	Premnoplex brunnescens	Insectivoro																				No se tiene ninguna medida, posiblemente se escap— 
+37	37	SM	2015	3	3	17:45:00	1	DMA	Synallaxis azarae	Insectivoro	15.22	A	I	D		N	N	10.5	13.3	3.6	3.6	8.6	21.9	6.4	19.4			57	NO	No hay medidas para Rectriz central y Rectriz externa, pero el individuo es adulto.
+38	38	SM	2015	3	3	17:45:00	1	JLPV	Myadestes ralloides	Frugivoro	27.4	A	P	D		N	N	9	13.1	5.5	3.8	9	20	5.8	17.5	79	78	85	NO	
+39	39	SM	2015	3	3	17:45:00	1	ECR	Chlorospingus ophthalmicus	Insectivoro	21.67	A	P	D		N	N	9.2	13.9	5	5.6	8	21.9	6.2	12.9	65	66	70	NO	
+40	40	SM	2015	3	3	17:45:00	1	DMA	Mionectes striaticollis	Frugivoro/Insectivoro+	14.83	A	P	D		N	N	9.8	13	4.5	3.6	8.5	17.7	6.5	19	50	50	60	NO	
+41	41	SM	2015	3	3	17:45:00	1	DMA	Synallaxis azarae	Insectivoro	15.82	A	I	D		N	S	10.7	13.4	4.1	3.9	10	22.4	6.3	17.8	95	54	56	NO	
+42	42	SM	2015	3	4	07:00:00	1	NJE	Haplophaedia aureliae	Nectarivoro	4.63	A	P/I	H	P	N	S	16.9	17.1	2.4	1.8	5.1	10.3	3.4	8.1	20.5	30	56	P	
+43	43	SM	2015	3	4	08:00:00	1	NJE	Haplophaedia aureliae	Nectarivoro	5.62	A	P/I	H	P	N	S	18.2	21	2.1	2.2	4.2	9.9	2.9	9.2	25	35	55	P	
+44	44	SM	2015	3	4	08:00:00	1	JLPV	Doryfera ludovicae	Nectarivoro	5.9	A	P	M	P	N	S	31.2	33.1	4.2	2.3	4.1	6.4	2.8	10	32	26	58	P	
+45	45	SM	2015	3	4	08:00:00	1	LSD	Myioborus miniatus	Insectivoro																				No se tiene ninguna medida, posiblemente se escap— 
+46	46	SM	2015	3	4	08:00:00	1	JLPV	Phaethornis syrmatophorus	Nectarivoro	5.4	J	P	D		N	S	39.3	42.5	3.8	2.6	4.6	6.3	2.5	7.8		30	58	P	No hay medida de Rectriz central por estar en estad’o juvenil 
+47	47	SM	2015	3	4	08:00:00	1	NJE	Premnoplex brunnescens	Insectivoro	16.8	A	P	D		S	S	14.2	18.6	5.5	5	7.6	17.7	7.4	20	65	30	60		
+48	48	SM	2015	3	4	08:00:00	1	LSD	Mionectes striaticollis	Frugivoro/Insectivoro+	14.03	A	P	D		N	N	8.2	17	5	3.2		10.6	6.6	25.9	54	54	69	F	Se borr— dato de comisura
+49	49	SM	2015	3	4	09:45:00	1	NJE	Mionectes striaticollis	Frugivoro/Insectivoro+	13.38	A	P	D		N	N	10.3	12.4	4.7	4.3	7.1	18.8	6.1	14.6	60.5	70	70	F	Las fecas estaban vacias 
+50	50	SM	2015	3	4	09:45:00			Arremon brunneinucha	Frugivoro/Insectivoro+																				Como no hay datos, posiblemente solo se haya enredado en la red o es un registro visual  
+51	51	SM	2015	3	4	11:14:00		NJE	Haplophaedia aureliae	Nectarivoro	5.25	A	P/I	M	P	N	N	17.1	19.1	3.7	2.1	5.5	8.9	3.7	9.4	35	38	60	P	
+52	52	SM	2015	3	4	11:14:00			Diglossa albilatera	Nectarivoro																				Como no hay datos, posiblemente solo se haya enredado en la red o es un registro visual  
+53	53	SM	2015	3	4	11:15:00	1	JLPV	Haplophaedia aureliae	Nectarivoro	4.61	A	P/I	M	P	N	S	19.3	21.4	3	2	3.8	6.3	3.8	9.2	33	35	57	P	
+54	54	SM	2015	3	4	11:15:00	1	JLPV	Premnornis guttuliger	Insectivoro	16.6	A	R	H	R	S	N	12.3	14.8	4.1	4.2	6.9	20.4	7	17.8	65	50	68		Ten’a huevo
+55	55	SM	2015	3	4	11:15:00	1		Premnornis guttuliger	Insectivoro																				
+56	56	SM	2015	3	4	16:30:00	2	DMA	Adelomyia melanogenys	Nectarivoro	5.2	A	P	D	D	N	N	14.5	17	3.3	2.4	4.7	5.6	4.1	13.2	40	43	56	P	
+57	57	SM	2015	3	4	17:00:00	2	ECR	Mionectes striaticollis	Frugivoro/Insectivoro+	11.77	A	I	D	D	N	N	10	12.7	4.7	3.5	7.3	17.8	6.4	14.7	45	48	60	NO	
+58	58	SM	2015	3	4	17:30:00	2	DMA	Catharus ustulatus	Frugivoro	31.83	A	I	D	D	N	N	11.9	13.3	5.4	4.3	10.2	30.8	7.9	21.5	75	75	107	NO	
+59	59	SM	2015	3	4	17:30:00	2	MJE	Coeligena coeligena	Nectarivoro	6.07	A	I	D	D	N	S	26.7	29	2.1	2.5	5.4	6.9	2.6	6.5	38	45	69	P	
+60	60	SM	2015	3	4	18:00:00	2	DMA	Coeligena coeligena	Nectarivoro	6.62	A	I	D	D	N	N	26.6	30.7	2.9	2.3	4.7	3.6	1.9	11.2	39	45	68	NO	
+61	61	SM	2015	3	4	18:00:00	2	LSD	Myadestes ralloides	Frugivoro	29.79	A	I	D	D	N	N	7.2	10.9	5.8	3.7	7.3	25.8	6.5	27.4	65	70	82	F	
+62	62	SM	2015	3	5	07:15:00	2	DMA	Basileuterus tristriatus	Insectivoro	11.73	A	I	D	D	N	N	9.9	11.7	5	3.9	8.5	21	5.7	17.1	53	50	56	NO	
+63	63	SM	2015	3	5	07:15:00	2	MJE	Basileuterus coronatus	Insectivoro	16.56	A	I	D	D	N	N	10.5	12.1	5	5	10.5	20.7	6.2	13.6	50	58	70	NO	
+64	64	SM	2015	3	5	08:30:00	2	DMA	Premnornis guttuliger	Insectivoro	16.33	A	I/P	D	D	N	N	11.2	15.7	4.2	3.9	9.2	19.9	6.4	16.1	75	52	69	NO	
+65	65	SM	2015	3	5	09:10:00	2		Phaethornis syrmatophorus	Nectarivoro	6.42	J	I	D	D	N	N	40.3	44.5	3.9	3.5	5.4	5.2	1.4	11.4	72	36	60	NO	
+66	66	SM	2015	3	5	09:37:00	2	MJE	Doryfera ludovicae	Nectarivoro	5.82	A	I	M	P	N	N	29.3	33.1	4.2	2.7	5.4	5.1	3.2	2.1	30.5	30	59	NO	
+67	1	T	2015	2	11	12:00:00	1	JLPV	Myrmeciza exsul	Insectivoro	25.67	A	P	M	P	N	S	19	20.6	5.5	5.5	10.5	28.2	8.1	38	41	38	63		
+68	2	T	2015	2	11	12:00:00	1	JLPV	Myrmeciza exsul	Insectivoro	24.69	A	P	H	P	N	S	19.6	20.5	5.7	4.6	10.5	25.9	8.7	33.5	41	36	64		
+69	3	T	2015	2	11	12:00:00	1	TVC	Xiphorhynchus susurrans	Insectivoro	52.61	A	P	D		N	N	34.2	38.9	6	8.4	13.2	23	8.3	35.6	84	70	110		
+70	4	T	2015	2	11	18:11:00	1	JHP	Myrmeciza exsul	Insectivoro	27.27	A	P	H	P	N	N	19.6	22.9	5.4	5.4	11.1	28.9	8.1	34.6	43.6	39.2	66		
+71	5	T	2015	2	12	09:53:00	1	JLPV	Juliamyia julie	Nectarivoro	3.99	A	P	M	P	N	N	14	16.5	2.9	2	3.6	3.6	2.2	7.8	35	31	43		
+72	6	T	2015	2	12	17:45:00	2	JHP	Myrmeciza exsul	Insectivoro		A	P	H	P	N	N	18.4	21.4	6.7	5.3	8.6	29	8	39	46	39	59	NO	
+73	7	T	2015	2	13	07:52:00	2	MME	Manacus manacus	Frugivoro		A	R	H	R	S	N	10.1	12	5	4.9	8.1	18.7	4		36	30	50.7	SI	se elimin— dato de extenci—n de la pata
+74	8	T	2015	2	13	08:30:00	2	JHP	Mionectes oleagineus	Frugivoro/Insectivoro+	7.01	A	R	H	R	S	N	7	10	3.3	2.4	4	15	4.5	17	39	39	49		
+75	9	T	2015	2	13	09:30:00	2	DERZ	Juliamyia julie	Nectarivoro	4.45	A	P	H			N	19	22.4	2.9	1.6	4.2	10	2	9	30	29	54	NO	
+76	1	T	2015	2	11	08:30:00	3	LF	Manacus manacus	Frugivoro		J	P	M	P	N	N	9.8	12.2	5.9	4.1	8.5	20.7	6.3	20.8	30	30	53	F	
+77	2	T	2015	2	11	08:30:00	3	LF	Manacus manacus	Frugivoro	18	J	P	M	P	N	N	9.8	11.7	5.3	3.9	10	22.4	7.5	20.3	30	30	52		
+78	3	T	2015	2	11	09:00:00	3	SL	Manacus manacus	Frugivoro	19.7	A	P	M	P		N	8.9	11.3	5.5	4.5	7.5	22.3	6.2	19.1	30	30	53	F	Tenia en la pata derecha un anillo azul 
+79	4	T	2015	2	11	10:30:00	3	LF	Phaethornis longirostris	Nectarivoro	4	A	I	D			S	31.9	34.5	4	2.2	4.5				57	30	53		
+80	5	T	2015	2	11	10:30:00	3	LF	Terenotriccus erythrurus	Insectivoro		A	P	D		N	N	7.2	10.9	5	2.7	7.9	16.3	4.2	16.7	39	39	49		
+81	6	T	2015	2	11	12:06:00	3	LF	Manacus manacus	Frugivoro	12	A	P	M	P		S	11.3	13.1	5.1	3.7	9.4	20.9	5.7	20	25	30	50		Tenia en la pata derecha un anillo rojo
+82	7	T	2015	2	11	16:00:00	3	SL	Manacus manacus	Frugivoro	14	A	P	M	P		N	11.2	12.7	5	3.7	9	22.6	6.3	15	30	30	53	F	
+83	8	T	2015	2	12	07.20:00	3	MME	Manacus manacus	Frugivoro																				No se tienen datos porque el individuo escap—
+84	9	T	2015	2	12	07.20:00	3	DMA	Myrmeciza exsul	Insectivoro	24	A	I	H	P	N	N	16.1	20.4	4.9	5.1	12.5	27.5	7.2	22.9			62		No tenia Restriz por lo tanto no se tiene esas medidas
+85	10	T	2015	2	12	17:00:00	4	LF	Mionectes oleagineus	Frugivoro/Insectivoro+		D		D		N		10.5	12.5	4.7	3.5	8	15.2	5	17	48	48	60	F	
+86	11	T	2015	2	12	17:00:00	4	LF	Tachyphonus luctuosus	Frugivoro																			F	No se tienen datos porque el individuo escap—
+87	12	T			13		4																							
+88	12	T	2015	2	12	18:37:00	4	LF	Manacus manacus	Frugivoro	15	A	P	F	P	S	N	11.4	11.5	6	4	9.7	19.5	5.1	20	31	31	53		
+89	13	T	2015	2	12	18:37:00	4	TVC	Manacus manacus	Frugivoro	18	A 	P	M	P	N	N	8.7	12.4	5.1	3.2	8.8	21.7	5.8	22.3	29	29	51	F	
+90	14	T	2015	2	12	18:37:00	4	JHP	Protonotaria citrea	Insectivoro	13	A	P	F	P	N	N	14.1	16.2	3.8	4	5.9	17.8	5	18.2	45	45	67		
+91	15	T	2015	2	12	18:37:00	4	TVC	Manacus manacus	Frugivoro		A	P	F	P	S	N	9.5	12.2	5.2	3.8	8	20.7	5.7	25.9	29	29	53		
+92	16	T	2015	2	13	07:00:00	4	TVC	Dendrocincla fuliginosa	Insectivoro	41	D		D		N	N	24.7	29	7.1	6.3	13	24.3	6.5	31	85	64	102	F	Anillo 4379
+93	17	T	2015	2	13	08:00:00	4	LF	Amazilia tzacatl	Nectarivoro	5	A	J	M	P			18.9	22	4.2	2.4	6	5.5	1.7	4	29	33	53		Colectado
+94	18	T	2015	2	13	09:30:00	4	SL	Mionectes oleagineus	Frugivoro/Insectivoro+		A		D		N	N	9	11.3	4.5	3.2	8.2	14.4	5.1		46	46	60		Se elimin— dato de peso y extenci—n de pata
+95	19	T	2015	2	13	10:30:00	4	DMA	Amazilia  	Nectarivoro	4	A	I					15.3	19.4	2.8	2.4	3.8	4.4	2.1	8.6	25.1	21.2	42		
+96	20	T	2015	2	13	10:30:00	4	SL	Mionectes oleagineus	Frugivoro/Insectivoro+	11	D		D			N	10.3	11.3	4.1	3.2	7.4	14.8	8.9	12.2	41	41	58		
+97	21	T	2015	2	13	11:30:00	4	DMA	Turdus grayi	Frugivoro/Insectivoro+	60	A	I	M	R	S	N	16.1	23.6	5.5	6.1	15.3	30.1	8.1	33.3	111	100.5	110		
+98	22	T	2015	2	13	12:00:00	4	ECR	Mionectes oleagineus	Frugivoro/Insectivoro+	9	J	I	D		N	N	9.3	12.3	4.2	3.4	9.1	14	4.3	8.2	45	45	59		
+99	23	T	2015	2	13	16:30:00	4	EM	Mionectes oleagineus	Frugivoro/Insectivoro+	11	A	I	D		N	N	8.4	14.3	4.6	3.2	7.1	15	4	13.8	45	45	60		
+100	24	T	2015	2	13	16:30:00	4	ER	Mionectes oleagineus	Frugivoro/Insectivoro+	10	J	I	D		N	N	9.6	13.6	4.4	3.3	6.8	10.9	3.5		45	43	56		Se elimin— dato de extenci—n de pata
+101	25	T	2015	2	13	17:22:00	4	LF	Chloroceryle aenea	Piscivoro	13	A	P	M	P	N	N	27.4	33.6	6.9	7.1	10.9	7.9	3.2	19.5	35	35	55		
+102	26	T	2015	2	13	17:30:00	4	YMI	Manacus manacus	Frugivoro	16	A	R	H	R	S	N	9	10.2	5.1	4	7.2	19.5	6	16.2	30	30	53		
+103	27	T	2015	2	13	18:00:00	4	EAM	Dendroica castanea	Insectivoro	11	A	P	M	P	N	N	10.5	14.4	3.7	3.6	6.7	20	4.9	24	55	55	75		
+104	28	T	2015	2	13	18:10:00	4	EAM	Mionectes oleagineus	Frugivoro/Insectivoro+	12	A	I	D		N	N	10.7	13.6	3.9	3.5	8.2	15.5	4.2	12.8	45	45	55		Anillo 2184
+105	29	T	2015	2	13	18:15:00	4	LF	Manacus manacus	Frugivoro	16	A	R	H	A	S	N	10	14.1	6	4.1	8.5	19.2	5.9	18.2	30	30	50	P	
+106	1	T	2016	6	2	10:30:00	1	SCA	Phaethornis antophilus	Nectarivoro	5.1	A	P	D	D	N	S	30.4	30.6	4.5	2.5	5.4	23		7.5	61	32	59		
+107	2	T	2016	6	2	10:30:00	1	SCA	Manacus manacus	Frugivoro	18	A	P	M	P	N	S	7.3	9.4	4.2	3.9	11	19.1	5.5	18.4	32	32	53		
+108	3	T	2016	6	2	10:30:00	1	ES	Manacus manacus	Frugivoro	17.8	A	P	M	P	N	S	9.4	12.2	4.5	3.8	12.2	24.1	6	23.6	30	30	56		
+109	4	T	2016	6	2	10:30:00	1	ES	Manacus manacus	Frugivoro	18.6	A	P	H	P	N	N	8.1	12.3	4.9	3.8	11.8	22.8	5.6	20.2	32		56		
+110	5	T	2016	6	2	11:50:00	1	ES	Phaetornis antophilus	Nectarivoro	4.8	A	P	N	N	N	N	28.1	30.9	4	2.1	4.8	3.6		10.2	60	25	55		
+111	6	T	2016	6	2	11:50:00	1	SG	Manacus manacus	Frugivoro	18.3	A	P	M	P	N	S	9.3	10.8	6.1	4	11.1	18.2	5.7	20.8	32		54		
+112	7	T	2016	6	2	11:50:00	1	AA	Manacus manacus	Frugivoro	18.3	A	P	M	P	N	N	8.9	11.1	5.1	4.2	6.1	36	4.9	22.8	30		51		
+113	8	T	2016	6	2	11:50:00	1	SC	Manacus manacus	Frugivoro	16	A	P	H	P	S	N	9.3	11.3	5.1	4.8	12	18.2	4.5	18.3	33		54		infeccion en ojos
+114	9	T	2016	6	2	16:07:00	1	CM	Manacus manacus	Frugivoro	18.08	A	P	M	P	N	N	9.9	11.5	4.2	4.1	11.2	20.8	6.6	7.4	28	34	51		sangre, pata izquierda dos anillos naranja
+115	10	T	2016	6	2	16:07:00	1	MC	Manacus manacus	Frugivoro	19.06	A	P	M	P	N	N	8.9	13.2	4.6	4.3	9.4	19.6	6.6	16.3	29	31	50		sangre
+116	11	T	2016	6	2	16:30:00	1	AM	Myrmeciza exsul	Insectivoro	26.46	A 	P	H	R	S	N	20.1	20.9	4.7	4.5	14.1	26.2	6	22.3	40.3	30.7	60.5		
+117	12	T	2016	6	3	09:30:00	1	CM	Manacus manacus	Frugivoro		D		D		N	N	9.8	12	5	4.1	12.2	22.1	6.8	19.9					se volo
+118	13	T	2016	6	3	09:58:00	1	SRG	Manacus manacus	Frugivoro	18.68	A	P	M	P	N	N	10.1	10.1	5.3	4.3	9.4	20.7	6.8	19.7	28	32	51		anillo naranja pata izquierda, sangre
